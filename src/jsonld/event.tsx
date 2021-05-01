@@ -9,9 +9,7 @@ import { buildOffers } from '../utils/buildOffers';
 import { buildAggregateOffer } from '../utils/buildAggregateOffer';
 
 type Location = {
-  name: string;
-  address: Address;
-  sameAs?: string;
+  url: string;
 };
 
 type Performer = {
@@ -33,10 +31,8 @@ export interface EventJsonLdProps {
 
 const buildLocation = (location: Location) => `
   "location": {
-    "@type": "Place",
-    ${buildAddress(location.address)}
-    ${location.sameAs ? `"sameAs": "${location.sameAs}",` : ``}
-    "name": "${location.name}"
+    "@type": "VirtualLocation",
+    "url": "${location.url}"
   },
 `;
 
