@@ -1,7 +1,7 @@
 {
   "name": "next-seo",
   "version": "4.24.0",
-  "description": "SEO plugin for Next.js projects",
+  "description": "SEO plugin for Next.js projects; Forked for FO",
   "source": "src/index.tsx",
   "main": "lib/next-seo.js",
   "module": "lib/next-seo.module.js",
