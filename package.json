@@ -48,10 +48,6 @@
     "email": "garymeehan@outlook.com"
   },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/garmeeh/next-seo.git"
-  },
   "keywords": [
     "next.js",
     "seo",
@@ -59,10 +55,6 @@
     "node",
     "ssr"
   ],
-  "bugs": {
-    "url": "https://github.com/garmeeh/next-seo/issues"
-  },
-  "homepage": "https://github.com/garmeeh/next-seo#readme",
   "devDependencies": {
     "@cypress/schema-tools": "^4.7.1",
     "@types/jest": "^26.0.0",
